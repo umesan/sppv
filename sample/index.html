@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>SmartPhonePreviewViewer</title>
+<meta name="apple-mobile-web-app-title" content="SPPV">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=0">
+<!-- css -->
+<link rel="stylesheet" href="./lib/app.css">
+<!-- icon -->
+<link rel="shortcut icon" href="./lib/img/startup/favicon.ico">
+<link rel="apple-touch-icon" href="./lib/img/startup/webclip.png">
+<!-- startup for iPad3 - portrait (1536x2008) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_ipad3_1536x2008.png" media="(device-width: 768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)">
+<!-- startup for iPad3 - landscape (2048x1496) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_ipad3_2048x1496.png" media="(device-width: 768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)">
+<!-- startup for iPad - portrait (768x1004) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_ipad_768x1004.png" media="(device-width: 768px) and (orientation:portrait)">
+<!-- startup for iPad - landscape (1024x748) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_ipad_1024x748.png" media="(device-width: 768px) and (orientation:landscape)">
+<!-- startup for iPhone5 (640x1016) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_640x1016.png" media="(device-height: 568px)">
+<!-- startup for iPhone4 (640x920) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_640x920.png" media="(device-height: 480px)">
+<!-- startup for iPhone (320x460) -->
+<link rel="apple-touch-startup-image" href="./lib/img/startup/startup_320x460.png" media="(max-device-width: 320px)">
+</head>
+<body>
+<div id="initload" class="load">
+<p class="txt">読み込み中</p>
+<p class="attention">読み込みが完了しない場合は、<a href="./">こちらから</a>ホームに戻り下さい。</p>
+</div>
+<div id="wrapper" class="cfx load writing">
+<div id="mainview" class="cfx">
+<div id="view1" class="cts">
+<header><h1><span></span></h1></header>
+<div id="iscts1" class="iscts">
+<div>
+<ul id="gnav1" class="mainlist"></ul>
+</div>
+</div>
+</div>
+</div>
+<div id="headbg"></div>
+</div>
+<script src="./lib/app.js"></script>
+</body>
+</html>
